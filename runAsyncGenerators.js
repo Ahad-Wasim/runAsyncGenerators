@@ -1,12 +1,3 @@
-// import test from 'tape';
-// import { incrementAsync } from './sagas';
-
-// test('increment saga test', () => {
-//     const gen = incrementAsync();
-//     gen().next();
-//     gen().next();
-// });
-
 function runAsyncGenerators(generator){
     const gen = generator();
 
